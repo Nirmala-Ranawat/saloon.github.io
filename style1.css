@@ -1,0 +1,278 @@
+*{ margin:0; padding: 0; font-family: 'Baloo Tamma 2', cursive;}
+
+
+#navbar
+{
+	position:sticky;
+	top:0;
+	z-index: 10;
+}
+.navbar
+{
+	background-image:linear-gradient(to right, #e6007a,#b3005f);
+	padding:0!important;
+}
+.navbar-brand img
+{
+	height:40px;
+	padding-left:20px;
+}
+.navbar-nav li
+{
+	padding:0 10px;
+}
+.navbar-nav li a
+{
+	color:#fff ! important;
+	font-weight:500;
+	float:right;
+	text-align:left;
+}
+.fa-bars
+{
+	color:#fff;
+	font-size:40px;
+}
+.navbar-toggler
+{
+	outline:none;
+}
+/*--------------------------------end nav-----------------------------*/
+#banner
+{
+	background-image:linear-gradient(to right, #e6007a,#b3005f);
+	color:#fff;
+	padding-top:4%;
+	padding-bottom:2%;
+}
+.banner-title p
+{
+	font-family: 'Baloo Tamma 2', cursive;
+}
+.banner-title 
+{
+	font-size:50px;
+	font-weight:600;
+	font-family: 'Baloo Tamma 2', cursive;
+}
+.fa-play-circle-o h3
+{
+	margin-top:-25px;
+	font-size:20px;
+	margin-left:45px; 
+	font-family: 'Baloo Tamma 2', cursive;
+}
+
+/*--------------------end slide-------------------*/
+#about
+{
+	margin-top:50px;
+}
+.about-title::before
+{
+	content:' ';
+	background:#b3005f;	
+	height:5px;
+	width:200px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	transform:translatey(63px);
+}
+.about-title::after
+{
+	content:' ';
+	background:#b3005f;
+	height:10px;
+	width:50px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	transform:translatey(8px);
+}
+
+
+.about-par
+{
+	font-weight:600;
+	font-size: 13px;
+}
+/*------------------------------end about--------------------------------*/
+.blog-title::before
+{
+	content:' ';
+	background:#b3005f;	
+	height:5px;
+	width:200px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	transform:translatey(63px);
+}
+.blog-title::after
+{
+	content:' ';
+	background:#b3005f;
+	height:10px;
+	width:50px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	transform:translatey(8px);
+}
+.list-blog  li
+{
+	 list-style:none;
+	 margin-bottom:20px;
+	 font-weight:600;
+}
+.list-blog li:hover
+{
+	color:#b3005f;
+}
+.follow
+{
+	margin-top:65px;
+	font-size:25px;
+	color:black;
+	font-weight:600;
+}
+.tag
+{
+	margin-top:40px;
+	font-size:25px;
+	color:black;
+	font-weight:600;
+
+}
+
+.fa-instagram,.fa-twitter-square,.fa-youtube-play
+{
+	border-left:2px solid black;
+	padding-left:10px;
+	height:20px;
+}
+.ser-text
+{
+	margin-top:30px;
+	color:black;
+	font-weight:500;
+	word-spacing:5px;
+	letter-spacing:2;
+	font-size:18px;
+}
+.ser-title
+{
+	text-transform:uppercase;
+	font-size:30px;
+	color:black;
+	font-weight:600;
+}
+.ser-title:hover
+{
+	color:#b3005f;
+}
+
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+  /*------------------------------end blog-----------------------------*/
+.gallery-title::before
+{
+	content:' ';
+	background:#b3005f;	
+	height:5px;
+	width:200px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	transform:translatey(63px);
+}
+.gallery-title::after
+{
+	content:' ';
+	background:#b3005f;
+	height:10px;
+	width:50px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	transform:translatey(8px);
+}
+
+/
+/*---------------------------------------end gallery--------------------------*/
+
+.myprofile
+{
+	
+	
+}
+.myprofile img
+{
+	width:20%;
+}
+.myprofile h5,h6
+{
+	color:#000;
+	text-align:center;
+}
+.icons-about 
+{
+	text-align:center;
+	margin-top:20px;
+	border-left:none;
+	padding:15px;
+}
+.form-group
+{
+	color:white;
+}
+
+/*--------gallery--/*/
+.gallery .gallery-item {
+  overflow: hidden;
+  border-right: 5px solid #fff;
+  border-bottom: 5px solid #fff;
+}
+
+.gallery .gallery-item img{
+  transition: all ease-in-out 0.7s;
+}
+.gallery .gallery-item{
+	color:#b3005f;
+	text-align:center;
+	
+
+}
+
+.gallery .gallery-item:hover img {
+  transform: scale(1.4);
+}
+.g1::before
+{
+	content:' ';
+	background:#b3005f;	
+	height:5px;
+	width:200px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	transform:translatey(53px);
+
+}
+
+
+.g1::after
+{
+
+content:' ';
+	background:#b3005f;
+	height:10px;
+	width:50px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	transform:translatey(7px);
+}
